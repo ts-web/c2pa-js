@@ -2,6 +2,18 @@
   "name": "c2pa-wc",
   "entries": [
     {
+      "version": "0.13.15",
+      "tag": "c2pa-wc_v0.13.15",
+      "date": "Fri, 04 Oct 2024 21:00:52 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Fix empty social media display"
+          }
+        ]
+      }
+    },
+    {
       "version": "0.13.14",
       "tag": "c2pa-wc_v0.13.14",
       "date": "Tue, 10 Sep 2024 19:21:30 GMT",
