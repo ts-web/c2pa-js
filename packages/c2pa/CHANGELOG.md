@@ -1,6 +1,11 @@
 # Change Log - c2pa
 
-This log was last generated on Tue, 10 Sep 2024 19:21:30 GMT and should not be manually modified.
+This log was last generated on Fri, 18 Oct 2024 18:01:58 GMT and should not be manually modified.
+
+## 0.24.2
+Fri, 18 Oct 2024 18:01:58 GMT
+
+_Version update only_
 
 ## 0.24.1
 Tue, 10 Sep 2024 19:21:30 GMT
