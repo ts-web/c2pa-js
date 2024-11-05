@@ -8,7 +8,7 @@ jobs:
     permissions:
       issues: write
     steps:
-      - run: gh issue edit "$NUMBER" --add-label "status: done" --remove-label "status: wip,status: todo,status: in progress,status: in test,status: not prioritized,status: blocked,status: api review,status: code review,status: design review,status: code complete,status: ready"
+      - run: 'gh issue edit "$NUMBER" --add-label "status: done" --remove-label "status: wip,status: todo,status: in progress,status: in test,status: not prioritized,status: blocked,status: api review,status: code review,status: design review,status: code complete,status: ready"'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
