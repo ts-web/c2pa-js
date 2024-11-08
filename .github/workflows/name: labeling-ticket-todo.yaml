@@ -6,7 +6,7 @@ jobs:
   label_issues:
     runs-on: ubuntu-latest
     if: |
-      contains(github.event.issue.labels.*.name, 'status: todo')
+      !contains(github.event.issue.labels.*.name, 'status: done')
     permissions:
       issues: write
     steps:
